@@ -1,0 +1,81 @@
+.header {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 51px;
+	background-color: #000;
+	opacity: 0.6;
+}
+
+.footer {
+	display: none; position : absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 46px;
+	background-color: #000;
+	opacity: 0.6;
+	position: absolute;
+}
+
+.footer .container {
+	width: auto;
+	padding: 0 15px;
+	color: white;
+}
+
+.footer .container .text-muted {
+	margin: 13px 0px;
+	color: inherit;
+}
+
+body {
+	background-image: url("../images/background.jpg");
+	background-size: 100% 100%;
+	background-repeat: repeat;
+}
+
+section {
+	margin-top: 53px;
+}
+
+.navbar {
+	opacity: 0.7;
+}
+
+#login {
+	margin: 15px 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#login .inner {
+	width: 356px; margin : 0px auto; text-align : left; border : 1px solid
+	#AAB; background-color : rgba( 73, 73, 150, 0.15); box-shadow : 2px 2px
+	2px #EEE; padding : 7px; position : relative;
+	-moz-box-shadow: 2px 2px 2px #eee;
+	-webkit-box-shadow: 2px 2px 2px #eee;
+	-khtml-box-shadow: 2px 2px 2px #eee;
+	box-shadow: 2px 2px 2px #eee;
+	margin: 0px auto;
+	text-align: left;
+	border: 1px solid #AAB;
+	background-color: rgba(73, 73, 150, 0.15);
+	box-shadow: 2px 2px 2px #EEE;
+	padding: 7px;
+	position: relative;
+}
+
+#login .inner .fheader {
+	padding: 10px 17px 9px;
+	background-color: #f7f7ff;
+	margin: 0px 0 14px 0;
+	color: #2e3741;
+	font-size: 18px;
+	font-weight: bold;
+}
+#login .inner .login_message{
+	color:red;
+}
+.fit-2{
+	width:49%;
+}
